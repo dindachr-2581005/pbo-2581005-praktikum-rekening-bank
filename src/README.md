@@ -1,7 +1,7 @@
 # Program Rekening Bank Mini
 
 ## Deskripsi
-Program Rekening Bank Mini merupakan tugas Pemrograman Berorientasi Objek (PBO) yang dibuat menggunakan bahasa Java.
+Program Rekening Bank Mini mergit upakan tugas Pemrograman Berorientasi Objek (PBO) yang dibuat menggunakan bahasa Java.
 
 Program ini menerapkan konsep class, object, constructor, encapsulation, dan method.
 
