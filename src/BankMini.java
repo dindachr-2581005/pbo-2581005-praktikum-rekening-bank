@@ -16,40 +16,40 @@ public class BankMini {
             System.out.print("Menu (1 setor, 2 tarik, 3 info, 0 keluar): ");
             menu = bankMini.nextInt();
 
-        switch (menu) {
-            case 1:
-            System.out.print("Jumlah: ");
-            jumlah = bankMini.nextInt();
+            switch (menu) {
+                case 1:
+                    System.out.print("Jumlah: ");
+                    jumlah = bankMini.nextInt();
 
-            if (rekening.setor(jumlah)) {
-            System.out.println("  Berhasil");
-            }
-            else {
-            System.out.println("  Ditolak");
-            }
-            break;
+                    if (rekening.setor(jumlah)) {
+                        System.out.println("  Berhasil");
+                    }
+                    else {
+                        System.out.println("  Ditolak");
+                    }
+                    break;
 
-            case 2:
-            System.out.print("Jumlah: ");
-            jumlah = bankMini.nextInt();
+                case 2:
+                    System.out.print("Jumlah: ");
+                    jumlah = bankMini.nextInt();
 
-            if (rekening.tarik(jumlah)) {
-            System.out.println("  Berhasil");
-            }
-            else {
-            System.out.println("  Ditolak");
-            }
-            break;
+                    if (rekening.tarik(jumlah)) {
+                        System.out.println("  Berhasil");
+                    }
+                    else {
+                        System.out.println("  Ditolak");
+                    }
+                    break;
 
-            case 3:
-            rekening.cetakInfo();
-            break;
+                case 3:
+                    rekening.cetakInfo();
+                    break;
 
-            case 0:
-            break;
+                case 0:
+                    break;
 
-            default:
-            System.out.println("Menu tidak dikenal");
+                default:
+                    System.out.println("Menu tidak dikenal");
             }
 
         } while (menu != 0);
@@ -64,4 +64,4 @@ public class BankMini {
 
         bankMini.close();
     }
-    }
+}
